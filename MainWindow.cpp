@@ -15,11 +15,13 @@
 #include "TableFavoritesUtil.h"
 #include "ImagePropertyWidget.h"
 
+char* MainWindow::appName = "\346\210\221\347\232\204\345\256\266";
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), _sqlite(new Sqlite),
       _addImagesProgressBar(new QProgressBar(this)), _statusBarText(new QLabel(this))
 {
-    setWindowTitle(tr("\346\210\221\347\232\204\345\256\266"));
+    setWindowTitle(tr(appName));
     createCentralWidget();
 
     createActions();
@@ -530,10 +532,10 @@ void MainWindow::deleteFavorites()
 
 void MainWindow::about()
 {
-    QMessageBox::about(this, tr("My House"),
+    QMessageBox::about(this, tr(appName),
                        tr("%1"
-                          "<p>Copyright @ 2013 Junjian Wang.</p>"
-                          "<p>All Rights Reserved.</p>").arg("<p><b>My House 1.0</b></p><p><a href='https://github.com/vwarship/myhouse/'>https://github.com/vwarship/myhouse/</a></p><p>Email: <a href='mailto:vwarship@163.com'>vwarship@163.com</a></p>"));
+                          "<p>Copyright @ 2013-2014 Wang Junjian.</p>"
+                          "<p>All Rights Reserved.</p>").arg("<p><a href='https://github.com/vwarship/MyHouse'>https://github.com/vwarship/MyHouse</a></p><p>Email: <a href='mailto:vwarship@163.com'>vwarship@163.com</a></p>"));
 }
 
 void MainWindow::showContextMenuWithImage(const QPoint /*pos*/)

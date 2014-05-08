@@ -119,6 +119,8 @@ private:
     QProgressBar *_addImagesProgressBar;
     QLabel *_statusBarText;
 
+    static char *appName;
+
 };
 
 #endif // MAINWINDOW_H
