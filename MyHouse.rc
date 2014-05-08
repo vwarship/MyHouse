@@ -1,0 +1,33 @@
+#define MYHOUSE_VERSION 1,0,1,0
+
+1 TYPELIB "MyHouse.rc"
+1 ICON DISCARDABLE "./images/myhouse.ico"
+
+1 VERSIONINFO
+ FILEVERSION MYHOUSE_VERSION
+ PRODUCTVERSION MYHOUSE_VERSION
+ FILEFLAGS 0x0L
+ FILEFLAGSMASK 0x3fL
+ FILEOS 0x00040004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "CompanyName", "My House"
+            VALUE "FileDescription", "My House"
+            VALUE "FileVersion", "1.0"
+            VALUE "LegalCopyright", ""
+            VALUE "InternalName", "MyHouse"
+            VALUE "OriginalFilename", "MyHouse.exe"
+            VALUE "ProductName", "My House"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END

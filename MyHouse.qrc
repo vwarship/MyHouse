@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>images/16/tag.png</file>
+        <file>images/32/tag.png</file>
+        <file>images/16/tag_add.png</file>
+        <file>images/32/tag_add.png</file>
+        <file>images/16/tag_delete.png</file>
+        <file>images/32/tag_delete.png</file>
+        <file>images/16/image_add.png</file>
+        <file>images/16/image_delete.png</file>
+        <file>images/32/image_add.png</file>
+        <file>images/32/image_delete.png</file>
+        <file>images/16/house.png</file>
+        <file>images/32/house.png</file>
+        <file>images/16/photo_album_delete.png</file>
+        <file>images/16/photo_album.png</file>
+        <file>images/16/photo_album_add.png</file>
+        <file>images/32/photo_album_delete.png</file>
+        <file>images/32/photo_album.png</file>
+        <file>images/32/photo_album_add.png</file>
+        <file>images/16/slideshow.png</file>
+        <file>images/32/slideshow.png</file>
+        <file>images/myhouse.jpg</file>
+        <file>images/16/tag_edit.png</file>
+        <file>images/32/tag_edit.png</file>
+        <file>images/16/photo_albums.png</file>
+        <file>images/16/tags.png</file>
+        <file>images/32/photo_albums.png</file>
+        <file>images/32/tags.png</file>
+        <file>images/16/image_copy.png</file>
+        <file>images/32/image_copy.png</file>
+        <file>images/16/favorites_delete.png</file>
+        <file>images/16/favorites.png</file>
+        <file>images/16/favorites_add.png</file>
+        <file>images/32/favorites_delete.png</file>
+        <file>images/32/favorites.png</file>
+        <file>images/32/favorites_add.png</file>
+        <file>images/16/help.png</file>
+        <file>images/16/exit.png</file>
+        <file>images/32/help.png</file>
+        <file>images/32/exit.png</file>
+        <file>images/16/image_paste.png</file>
+        <file>images/32/image_paste.png</file>
+    </qresource>
+</RCC>
