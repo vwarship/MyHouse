@@ -1,4 +1,4 @@
-#<img src="./images/myhouse.ico" width="32" alt="pageres">My House
+#<img src="logo.png" width="32" alt="pageres">My House
 
 ##我的家-图片管理器
 
